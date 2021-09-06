@@ -8,6 +8,7 @@ int main(void){
 
     //print line
     printf("Hello World\n");
+    
     printf("12:12 am 9/5/2021 Sunday\n");
 
     string input = get_string("What is your name?\n");
@@ -15,6 +16,7 @@ int main(void){
     if(strcmp(input,loser) == 0){
         printf("Hey loser \n");
     }
+    
     else{
         printf("Hello, %s\n", input);
     }
